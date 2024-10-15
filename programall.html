@@ -17,14 +17,15 @@ function mostra(texto){
     pulaLinha()
 }
 
-let pesoVit = 30
-let alturaVit = 1.69
 
-let incVit = pesoVit/(alturaVit*alturaVit)
+function calcularIMC(peso,altura){
+  return imc = peso/(altura*altura)
 
-mostra(`O IMC de Vitor é ${incVit}`)//temple string
-mostra('O IMC de Vitor é' + incVit)//concatenação normal
+}
 
+let imcVit = calcularIMC(35,1.69)
+
+mostra('O IMC de Vitor é:' + imcVit)
     </script>
     
 </body>
