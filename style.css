@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Tiny5&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titul: "Teko", sans-serif;
+    --fonte-texto: "Tiny5", sans-serif;
+    --cor0: #0b090aff;
+--cor1: #161a1dff;
+--cor2: #660708ff;
+--cor3: #a4161aff;
+--cor4: #ba181bff;
+--cor5: #e5383bff;
+--cor6: #b1a7a6ff;
+--cor7: #d3d3d3ff;
+--cor8: #f5f3f4ff;
+--cor9: #ffffffff;
+
+}
+
+
+
+body{
+background-color: var(--cor5);
+font-family: var(--fonte texto) ;
+}
+header, footer{
+    background-color: var(--cor0);
+    padding:2em;
+    color: var(--cor9);
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    text-decoration: nome;
+    color: var(--cor2)
+}
